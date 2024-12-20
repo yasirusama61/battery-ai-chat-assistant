@@ -86,9 +86,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **Name**: [Your Name]
-- **Email**: your.email@example.com
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Name**: Usama Yasir Khan
+- **Email**: yasirusama61@gmail.com
+- **GitHub**: [My GitHub Profile](https://github.com/yasirusama61)
 
 ---
 
