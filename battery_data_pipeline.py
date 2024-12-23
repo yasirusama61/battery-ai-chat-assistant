@@ -8,6 +8,7 @@ GitHub: yasirusama61
 Date: 2024-12-23
 """
 
+
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -108,7 +109,7 @@ def main():
     Main function to run the data pipeline.
     """
     # Define the base URL (update as per the target website)
-    base_url = "https://www.researchgate.net/publication/368695956_LIBAC_An_Annotated_Corpus_for_Automated_Reading_of_the_Lithium-Ion_Battery_Research_Literature"
+    base_url = "https://arxiv.org/pdf/2410.23303"
 
     # Crawl articles
     print("Starting data crawling...")
