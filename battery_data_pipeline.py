@@ -8,7 +8,6 @@ GitHub: yasirusama61
 Date: 2024-12-23
 """
 
-
 import os
 import requests
 from bs4 import BeautifulSoup
