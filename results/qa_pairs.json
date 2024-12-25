@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is discussed in section 1?",
+        "answer": "Accuracy and robust early detection of short - circuit faults in single -cell lithium batter y  Chengzhong  Zhang ,1,2 Hongyu Zhao ,2 and Wenjie  Zhang ,1   1College of Electrical and Power Engineering, Taiyuan University of Technology,  Taiyuan 030024, PR China ;  2University of Chinese Academy of Sciences,  Shijingshan District,  Beijing 100 049,  China   CONTEXT & SCALE   Lithium -ion batteries are widely used in electronics, electric vehicles, and renewable energy  storage, playing a key role in green technology and a low -carbon economy"
+    },
+    {
+        "question": "What is discussed in section 2?",
+        "answer": "With the  applications  expansion , concerns about their safety, particularly thermal runaway, have gained  widespread attention"
+    },
+    {
+        "question": "What is discussed in section 3?",
+        "answer": "Internal short circuits are the essential causes of ther mal runaway in  lithium -ion batteries, which can subsequently trigger safety incidents  of combustion and  explosion"
+    },
+    {
+        "question": "What is discussed in section 4?",
+        "answer": "Early detection of internal short -circuit failures is a challenging issue in this field  due  to their subtle fault characteristics"
+    },
+    {
+        "question": "What is discussed in section 5?",
+        "answer": "This paper  presents a novel detection method in single cell ,  in which faults can be accurately and quickly identi fied"
+    },
+    {
+        "question": "What is discussed in section 6?",
+        "answer": "The details of this method listed in the  text"
+    },
+    {
+        "question": "What is discussed in section 7?",
+        "answer": "SUMMARY   Effective early -stage detection of internal short circuit in lithium -ion batteries is crucial to  prevent ing thermal runaway"
+    },
+    {
+        "question": "What is discussed in section 8?",
+        "answer": "This report proposes an effective approach  to address th is  challenging issue, in which the current change , state of charge and resistance are considered  simultaneously to depict the voltage differential  envelope curve"
+    },
+    {
+        "question": "What is discussed in section 9?",
+        "answer": "The envelope naturally utilizes  the inherent physical information of the battery and accounts for error interference, providing a  high-precision range for battery voltage fluctuations under any operati ng conditions"
+    },
+    {
+        "question": "What is discussed in section 10?",
+        "answer": "This study  validates the algorithm using data from 10 fault intervals under dynamic operating condition"
+    },
+    {
+        "question": "What is discussed in section 1?",
+        "answer": "Refining CNN-based Heatmap Regression with Gradient-based Corner Points for Electrode Localization Lin Wu fiftywu@outlook.com Abstract We propose a method for detecting the electrode positions in lithium-ion batteries"
+    },
+    {
+        "question": "What is discussed in section 2?",
+        "answer": "The process begins by identifying the region of interest (ROI) in the battery\u2019s X-ray image through corner point detection"
+    },
+    {
+        "question": "What is discussed in section 3?",
+        "answer": "A convolutional neural network is then used to regress the pole positions within this ROI"
+    },
+    {
+        "question": "What is discussed in section 4?",
+        "answer": "Finally, the regressed positions are optimized and corrected using corner point priors, significantly mitigating the loss of localization accuracy caused by operations such as feature map down-sampling and padding during network training"
+    },
+    {
+        "question": "What is discussed in section 5?",
+        "answer": "Our findings show that combining traditional pixel gradient analysis with CNN-based heatmap regression for keypoint extraction enhances both accuracy and efficiency, resulting in significant performance improvements"
+    },
+    {
+        "question": "What is discussed in section 6?",
+        "answer": "Keywords: Machine vision, Heatmap regression, Keypoint detection, Electrode localization 1"
+    },
+    {
+        "question": "What is discussed in section 7?",
+        "answer": "Introduction The quality of battery cells is directly linked to the precise localization and alignment of the electrodes"
+    },
+    {
+        "question": "What is discussed in section 8?",
+        "answer": "[1] The folding of the electrode sheets or poor alignment of the four corners of the electrode assembly in lithium-ion batteries can lead to reduced performance, overheating risks, mechanical damage, and safety hazards"
+    },
+    {
+        "question": "What is discussed in section 9?",
+        "answer": "Therefore, ensuring the accurate alignment and shape of the electrode sheets during the manufacturing process is crucial, particularly for lithium-ion batteries used in high-performance and high-safety applications, such as electric vehicles and energy storage systems"
+    },
+    {
+        "question": "What is discussed in section 10?",
+        "answer": "However, due to the multi-levels structure of the cells and the significant overlap between the electrode sheets, X-ray images often suffer from low brightness, high noise, and variations in pole area sizes and positions [2]"
+    },
+    {
+        "question": "What is discussed in section 1?",
+        "answer": "A Layered Swarm Optimization Method for Fitting Battery Thermal Runaway Models to Accelerating Rate Calorimetry Data Saakaar Bhatnagara\u2020 sbhatnagar@altair.comAndrew Comerforda acomerford@altair.comZelu Xua zxu@altair.com Simone Reitanob simone.reitano@beond.netLuigi Scrimierib luigi.scrimieri@beond.netLuca Giulianob luca.giuliano@beond.net Araz Banaeizadeha araz@altair.com aAltair Engineering Inc., 640 W"
+    },
+    {
+        "question": "What is discussed in section 2?",
+        "answer": "California Ave, Sunnyvale, CA, USA bBeonD Srl - Corso Castelfidardo, 30A, 10129 Torino, Italy Keywords: Thermal Runaway, Accelerating Rate Calorimetry (ARC), Particle Swarm Optimiza- tion, Modeling and Simulation, Artificial Intelligence Abstract Thermal runaway in lithium-ion batteries is a critical safety concern for the battery industry due to its potential to cause uncontrolled temperature rises and subsequent fires that can engulf the battery pack and its surroundings"
+    },
+    {
+        "question": "What is discussed in section 3?",
+        "answer": "Modeling and simulation offer cost-effective tools for designing strategies to mitigate thermal runaway"
+    },
+    {
+        "question": "What is discussed in section 4?",
+        "answer": "Accurately simulating the chemical kinetics of thermal runaway \u2014 commonly represented by systems of Arrhenius-based Ordinary Differential Equations (ODEs) \u2014 requires fitting kinetic parameters to experimental calorimetry data, such as Accelerating Rate Calorimetry (ARC) measurements"
+    },
+    {
+        "question": "What is discussed in section 5?",
+        "answer": "However, existing fitting methods often rely on empirical assumptions and simplifications that compromise generality or require manual tuning during the fitting process"
+    },
+    {
+        "question": "What is discussed in section 6?",
+        "answer": "Particle Swarm Optimization (PSO) offers a promising approach for directly fitting kinetic parameters to experimental data"
+    },
+    {
+        "question": "What is discussed in section 7?",
+        "answer": "Yet, for systems involving large search spaces, such as those created by multiple Arrhenius ODEs, the computational cost of fitting can become prohibitive"
+    },
+    {
+        "question": "What is discussed in section 8?",
+        "answer": "This work introduces a divide-and-conquer approach based on PSO to fit N-equation Arrhenius ODE models to ARC data"
+    },
+    {
+        "question": "What is discussed in section 9?",
+        "answer": "The proposed method achieves accurate parameter fitting while maintaining low computational costs"
+    },
+    {
+        "question": "What is discussed in section 10?",
+        "answer": "The resulting fit is analyzed using two distinct ARC datasets, highlighting the method\u2019s flexibility"
+    },
+    {
+        "question": "What is discussed in section 1?",
+        "answer": "Structural and electronic properties of bulk Li 2O2: first-principles simulations based on numerical atomic orbitals Paul M"
+    },
+    {
+        "question": "What is discussed in section 2?",
+        "answer": "Masanja,1Toraya Fern\u00b4 andez-Ruiz,2Esther J"
+    },
+    {
+        "question": "What is discussed in section 3?",
+        "answer": "Tarimo,1Nayara Carral-Sainz,2P.V"
+    },
+    {
+        "question": "What is discussed in section 4?",
+        "answer": "Kanaka Rao,1Vijay Singh,1Bernard Mwankemwa,1Juan Mar\u00b4 \u0131a Garc\u00b4 \u0131a-Lastra,3Pablo Garc\u00b4 \u0131a-Fern\u00b4 andez,2and Javier Junquera2 1Department of Physics, College of Natural and Mathematical Sciences, University of Dodoma, PO Box 259, Dodoma, Tanzania 2Departamento de Ciencias de la Tierra y F\u00b4 \u0131sica de la Materia Condensada, Universidad de Cantabria, Avenida de los Castros s/n, 39005 Santander, Spain 3Department of Energy Conversion and Storage, Technical University of Denmark, Kongens Lyngby DK-2800, Denmark (Dated: December 24, 2024) The development of advanced materials with high specific energy is crucial for enabling sustainable energy storage solutions, particularly in applications such as lithium-air batteries"
+    },
+    {
+        "question": "What is discussed in section 5?",
+        "answer": "Lithium peroxide (Li2O2) is a key discharge product in non-aqueous lithium-air systems, where its structural and electronic properties significantly influence battery performance"
+    },
+    {
+        "question": "What is discussed in section 6?",
+        "answer": "In this work, we investigate the atomic structure, electronic band structure, and Wannier functions of bulk Li 2O2using density functional theory"
+    },
+    {
+        "question": "What is discussed in section 7?",
+        "answer": "The performance of different basis sets of numerical atomic orbitals are compared with respect to a converged plane-wave basis results"
+    },
+    {
+        "question": "What is discussed in section 8?",
+        "answer": "We analyze the material\u2019s ionic characteristics, the formation of molecular orbitals in oxygen dimers, and the band gap discrepancies between various computational approaches"
+    },
+    {
+        "question": "What is discussed in section 9?",
+        "answer": "Furthermore, we develop a localized Wannier basis to model electron- vibration interactions and explore their implications for polaron formation"
+    },
+    {
+        "question": "What is discussed in section 10?",
+        "answer": "Our findings provide a chemically intuitive framework for understanding electron-lattice coupling and offer a basis for constructing reduced models that accurately describe the dynamics of polarons in Li 2O2"
+    },
+    {
+        "question": "What is discussed in section 1?",
+        "answer": "Forward and Inverse Simulation of Pseudo-Two-Dimensional Model of Lithium-Ion Batteries Using Neural Networks Myeong-Su Leea,\u2217, Jaemin Oha,\u2217, Dong-Chan Leeb, KangWook Leeb, Sooncheol Parkb, Youngjoon Honga,\u2217\u2217 aKorea Advanced Institute of Science and Technology, 291 Daehak-ro, Yuseong-Gu, 34141, Daejeon, Republic of Korea bPerformance Concept Technology Research Lab, Hyundai Motor Company 150 Hyundaiyeonguso-Ro, Namyang-Eup, Hwaseong-Si, 18280, Gyeonggi, Republic of Korea Abstract In this work, we address the challenges posed by the high nonlinearity of the Butler-Volmer (BV) equation in forward and inverse simulations of the pseudo-two-dimensional (P2D) model using the physics-informed neural network (PINN) framework"
+    },
+    {
+        "question": "What is discussed in section 2?",
+        "answer": "The BV equation presents significant challenges for PINNs, primarily due to the hyperbolic sine term, which renders the Hessian of the PINN loss function highly ill-conditioned"
+    },
+    {
+        "question": "What is discussed in section 3?",
+        "answer": "To address this issue, we introduce a bypassing term that improves numerical stability by substantially reducing the condition number of the Hessian matrix"
+    },
+    {
+        "question": "What is discussed in section 4?",
+        "answer": "Furthermore, the small magnitude of the ionic flux joften leads to a common failure mode where PINNs converge to incorrect solutions"
+    },
+    {
+        "question": "What is discussed in section 5?",
+        "answer": "We demonstrate that incorporating a secondary conservation law for the solid-phase potential \u03c8effectively prevents such convergence issues and ensures solution accuracy"
+    },
+    {
+        "question": "What is discussed in section 6?",
+        "answer": "The proposed methods prove effective for solving both forward and inverse problems involving the BV equation"
+    },
+    {
+        "question": "What is discussed in section 7?",
+        "answer": "Specifically, we achieve precise parameter estimation in inverse scenarios and reliable solution predictions for forward simulations"
+    },
+    {
+        "question": "What is discussed in section 8?",
+        "answer": "Keywords: Physics-informed neural networks, Lithium-ion battery, Pseudo-two-dimensional model, forward and inverse solver 1"
+    },
+    {
+        "question": "What is discussed in section 9?",
+        "answer": "Introduction Lithium-ion batteries have become integral to modern technology, powering a wide range of devices from laptops and mobile phones to electric vehicles [1]"
+    },
+    {
+        "question": "What is discussed in section 10?",
+        "answer": "The 2019 Nobel Prize in Chem- istry, awarded to the pioneers of lithium-ion battery technology, highlights its transformative impact on modern life"
+    }
+]
