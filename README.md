@@ -115,6 +115,10 @@ We generated QA pairs from the extracted text and analyzed the distribution of q
 - **Question**: What is the main contribution of this paper?
 - **Answer**: The paper introduces a novel method for analyzing battery data using machine learning.
 
+Below is a snapshot of the generated QA pairs from the extracted text, showcasing the structure and quality of question-answer pairs used for fine-tuning:
+
+![Sample QA Pairs](results/qa_pairs_screenshot.png)
+
 ### 4. Distribution of QA Pairs per File
 
 This plot shows the number of QA pairs generated for each extracted text file.
