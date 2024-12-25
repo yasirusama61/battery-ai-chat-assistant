@@ -115,6 +115,16 @@ We generated QA pairs from the extracted text and analyzed the distribution of q
 - **Question**: What is the main contribution of this paper?
 - **Answer**: The paper introduces a novel method for analyzing battery data using machine learning.
 
+### 4. Distribution of QA Pairs per File
+
+This plot shows the number of QA pairs generated for each extracted text file.
+
+![QA Pair Distribution](results/qa_pair_distribution.png)
+
+**Description**:
+- The x-axis represents the file indices, and the y-axis shows the number of QA pairs generated.
+- This visualization helps identify consistency or variability in QA pair generation across files.
+
 ---
 
 ## 🤝 Contributing
