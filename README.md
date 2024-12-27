@@ -160,7 +160,7 @@ Key metrics were computed on a held-out test set:
 - **BLEU/ROUGE**: Highlight the model’s high accuracy in reproducing factual information.
 - **F1 Score**: Balances precision and recall in QA generation.
 
-### **3. Sample Generated QA Pairs**
+### **3. Generated QA Pairs**
 The fine-tuned GPT-2 model demonstrated excellent capability in generating meaningful QA pairs. Below are some examples:
 
 - **Input Question**: What is the main contribution of the first paper?
