@@ -24,16 +24,24 @@ This repository contains a comprehensive dataset of Question-Answer (QA) pairs g
 Here are some examples of QA pairs from the dataset:
 
 ### QA Pair 1
-- **Question**: What are the main contributions of the paper on thermal runaway models?
-- **Answer**: This paper introduces a layered swarm optimization method to fit battery thermal runaway models to accelerating rate calorimetry data. It focuses on accurate parameter fitting while maintaining computational efficiency.
+- **Question**: What is discussed in section 1?
+- **Answer**: Accuracy and robust early detection of short-circuit faults in single-cell lithium batteries. Chengzhong Zhang, Hongyu Zhao, and Wenjie Zhang, from the College of Electrical and Power Engineering at Taiyuan University of Technology and the University of Chinese Academy of Sciences, discuss the importance of lithium-ion batteries in electronics, electric vehicles, and renewable energy storage, playing a key role in green technology and a low-carbon economy.
 
 ### QA Pair 2
-- **Question**: What is the significance of electrode alignment in lithium-ion batteries?
-- **Answer**: Accurate electrode alignment is crucial for improving battery performance, reducing safety risks, and ensuring durability, especially in applications like electric vehicles and energy storage systems.
+- **Question**: What is discussed in section 2?
+- **Answer**: With the expansion of applications, concerns about the safety of lithium-ion batteries, particularly thermal runaway, have gained widespread attention.
 
 ### QA Pair 3
-- **Question**: How does the proposed CNN-based heatmap regression work?
-- **Answer**: The method combines traditional pixel gradient analysis with CNN-based regression for electrode localization, significantly enhancing both accuracy and computational efficiency.
+- **Question**: What is discussed in section 3?
+- **Answer**: Internal short circuits are the essential causes of thermal runaway in lithium-ion batteries, which can subsequently trigger safety incidents such as combustion and explosion.
+
+### QA Pair 4
+- **Question**: What is discussed in section 4?
+- **Answer**: Early detection of internal short-circuit failures is a challenging issue in this field due to their subtle fault characteristics.
+
+### QA Pair 5
+- **Question**: What is discussed in section 5?
+- **Answer**: This paper presents a novel detection method for single-cell lithium-ion batteries, where faults can be accurately and quickly identified.
 
 ## 🔧 Usage Instructions
 
