@@ -185,7 +185,7 @@ The loss curves indicate steady improvements during fine-tuning:
 Epoch 1: ▇▇▇▇▇▇▇▇▇▇▇▇
 Epoch 2: ▇▇▇▇▇▇▇▇
 Epoch 3: ▇▇▇▇
-
+```
 --
 
 ## 🤝 Contributing
