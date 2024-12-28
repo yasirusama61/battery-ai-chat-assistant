@@ -19,7 +19,7 @@ This repository contains a comprehensive dataset of Question-Answer (QA) pairs g
 - `qa_pairs.json`: The main dataset file containing 100 QA pairs in JSON format.
 - `README.md`: Documentation for the dataset.
 
-## 📝 Example QA Pairs
+## 📝 Some QA Pairs
 
 Here are some examples of QA pairs from the dataset:
 
