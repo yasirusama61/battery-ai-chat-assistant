@@ -136,13 +136,17 @@ This plot shows the number of QA pairs generated for each extracted text file.
 The fine-tuning process for the Battery AI Chat Assistant yielded the following results, demonstrating the pipeline's effectiveness in generating accurate and coherent responses to battery-related queries.
 
 ### **1. Training and Validation Loss**
-The training process was conducted over 3 epochs using the GPT-2 model, with consistent improvements observed in both training and validation losses:
 
-| Epoch | Training Loss | Validation Loss |
-|-------|---------------|-----------------|
-| 1     | 2.345         | 2.789           |
-| 2     | 1.843         | 2.247           |
-| 3     | 1.567         | 2.103           |
+Below is the plot showing the training and validation loss over 100 epochs. The model demonstrates a consistent reduction in loss values, indicating successful fine-tuning. The validation loss stabilizes at lower values, suggesting the model has generalized well to unseen data.
+
+### Insights:
+- **Training Loss**: Decreases steadily over the epochs, showcasing effective learning by the model.
+- **Validation Loss**: Follows a similar trend and stabilizes at a low value, reflecting good generalization.
+
+![Training and Validation Loss](results/loss_plot.png)
+
+The plot highlights the effectiveness of the fine-tuning process, providing a clear visual representation of model performance.
+
 
 ### **2. Evaluation Metrics**
 Key metrics were computed on a held-out test set:
@@ -177,15 +181,6 @@ The fine-tuned GPT-2 model demonstrated excellent capability in generating meani
 - **Inference Time**: ~120 ms per response on NVIDIA T4 GPU
 - **Deployment Size**: ~230 MB after quantization for deployment
 
-### **5. Visualizations**
-#### Training Loss Trend
-The loss curves indicate steady improvements during fine-tuning:
-
-```plaintext
-Epoch 1: ▇▇▇▇▇▇▇▇▇▇▇▇
-Epoch 2: ▇▇▇▇▇▇▇▇
-Epoch 3: ▇▇▇▇
-```
 --
 
 ## 🤝 Contributing
