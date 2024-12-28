@@ -176,12 +176,14 @@ The fine-tuned GPT-2 model demonstrated excellent capability in generating meani
 - **Input Question**: What methods are proposed in this paper for fault detection?
   - **Model Output**: The authors propose a method using voltage differential envelopes and state-of-charge resistance to detect faults.
 
+![Generated Response Tablular view](results/generated_response_table.png)
+
 ### **4. Model Performance**
 - **Model Size**: ~480 MB (Fine-tuned GPT-2 checkpoint)
 - **Inference Time**: ~120 ms per response on NVIDIA T4 GPU
 - **Deployment Size**: ~230 MB after quantization for deployment
 
---
+---
 
 ## 🤝 Contributing
 
