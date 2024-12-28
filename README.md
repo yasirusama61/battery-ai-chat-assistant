@@ -151,13 +151,7 @@ The plot highlights the effectiveness of the fine-tuning process, providing a cl
 ### **2. Evaluation Metrics**
 Key metrics were computed on a held-out test set:
 
-| **Metric**           | **Value** |
-|-----------------------|:--------:|
-| **Perplexity**        | **10.5** |
-| **BLEU Score**        | **84.2%** |
-| **ROUGE-L**           | **88.6%** |
-| **Exact Match (EM)**  | **78.9%** |
-| **F1 Score**          | **85.3%** |
+![Evaluation Metrics Table](results/evaluation_metrics.png)
 
 **Interpretation**:
 - **Perplexity**: Low perplexity indicates the model generates confident and plausible responses.
