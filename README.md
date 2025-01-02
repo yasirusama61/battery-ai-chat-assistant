@@ -69,11 +69,15 @@ A conversational AI assistant designed to answer technical queries about battery
 ## 🚧 Roadmap
 
 - [x] Set up project structure and tools.
-- [x] Collect and preprocess battery-related datasets.
+- [x] Collect and preprocess initial battery-related datasets.
 - [x] Fine-tune a pre-trained LLM.
-- [ ] Develop chatbot interface.
-- [ ] Deploy chatbot as a web app/API.
-- [ ] Document results and findings.
+- [x] Expand dataset with diverse battery-related articles (SOC estimation, thermal management, safety mechanisms, etc.).
+- [ ] Validate QA pairs and refine dataset quality.
+- [ ] Develop chatbot interface for interactive Q&A.
+- [ ] Deploy chatbot as a web app/API with scalable infrastructure.
+- [ ] Implement performance monitoring and feedback loop for dataset improvement.
+- [ ] Document results, findings, and challenges.
+- [ ] Publish the project on GitHub with a comprehensive README.
 
 ---
 
