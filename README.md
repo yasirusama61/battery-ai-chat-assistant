@@ -83,14 +83,25 @@ A conversational AI assistant designed to answer technical queries about battery
 
 ## 📊 Results
 
-### 1. Word Count of Extracted Texts
-We processed the extracted text from crawled PDFs and analyzed the word count distribution. Below is the visualization of word counts across the processed files:
+### **Extracted Text Analysis**
 
-![Word Count Distribution](results/word_count_distribution.png)
+We processed the extracted text from crawled PDFs and analyzed the word count distribution. Below are the visualizations of word counts across the processed files:
+
+#### **Word Count Distribution for Initial Articles**
+![Word Count Distribution - Initial Articles](results/word_count_distribution.png)
 
 **Description**:
-- This bar chart represents the total number of words extracted from each text file.
-- Highlights variability in the content length across PDFs.
+- This bar chart represents the total number of words extracted from the initial set of crawled text files.
+- Highlights variability in the content length across the first batch of PDFs.
+
+---
+
+#### **Word Count Distribution for Expanded Dataset**
+![Word Count Distribution - Expanded Dataset](results/word_count_more_articles.png)
+
+**Description**:
+- This figure represents the word count distribution from an expanded dataset with additional articles.
+- The comparison provides insights into the diversity and content density of the extended dataset.
 
 ---
 
