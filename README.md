@@ -133,12 +133,28 @@ Our text cleaning pipeline includes:
 
 ![Cleaned Extracted Text](results/cleaned_paper_text.png)
 
-### **Cleaning Steps**
-1. **Title Extraction:** Added proper titles and structured headings.
-2. **Abstract Identification:** Extracted and formatted the abstract for clarity.
-3. **Author and Institution Information:** Added metadata to improve readability.
-4. **Removal of Redundant Content:** Removed page numbers, references, and symbols unrelated to the paper's content.
-5. **Reformatting:** Converted plain text into a structured format, suitable for further processing.
+---
+
+### **🧹 Cleaning Steps**
+
+To ensure the extracted text from research papers is structured and ready for downstream tasks, the following steps were applied:
+
+1. **🔖 Title Extraction:**  
+   - Added **descriptive titles** and organized content with **structured headings** for clarity and easy navigation.
+
+2. **📝 Abstract Identification:**  
+   - Isolated and **formatted the abstract**, highlighting the key objectives and contributions of the paper.
+
+3. **🏢 Author and Institution Information:**  
+   - Extracted **author names** and their respective affiliations, enhancing metadata for better contextual understanding.
+
+4. **🚮 Removal of Redundant Content:**  
+   - Cleaned out **irrelevant text** such as page numbers, references, and extraneous symbols to reduce noise.
+
+5. **📑 Reformatting:**  
+   - Transformed plain, unstructured text into a **professional, organized format**, making it suitable for analysis, QA pair generation, and further processing.
+
+---
 
 By applying these steps, the extracted content was transformed into a readable and structured format, making it suitable for analysis and QA pair generation.
 
