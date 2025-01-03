@@ -125,24 +125,13 @@ Our text cleaning pipeline includes:
 ![Original Extracted Text](results/original_text.png)
 
 ![Original Extracted Text](results/original_paper_text.png)
+
 **Cleaned Text**:
 ![Cleaned Extracted Text](results/cleaned_text.png)
 
 **Paper after cleaning**: 
 
-## Coupling Neural Networks and Physics Equations for Li-Ion Battery State-of-Charge Prediction
-
-**Authors**: Giovanni Pollo, Alessio Burrello, Enrico Macii, Massimo Poncino, Sara Vinco, Daniele Jahier Pagliari  
-**Institution**: Politecnico di Torino, Turin, 10129, Italy  
-**Published In**: Design, Automation, and Test in Europe Conference 2025  
-
-### Abstract  
-Estimating the evolution of the battery’s State of Charge (SoC) in response to its usage is critical for implementing effective power management policies and improving the system’s lifetime. This work introduces a novel NN architecture combining data-driven models with battery dynamics equations for superior generalization over variable prediction horizons. Validated on two datasets, the proposed approach outperforms state-of-the-art models while requiring fewer parameters.
-
-### Introduction  
-Safe and efficient operations of battery-powered devices require advanced Battery Management Systems (BMS) to monitor internal states and optimize battery usage. The State of Charge (SoC) plays a pivotal role in ensuring battery longevity and predicting the battery's future behavior under specific load conditions.
-
----
+![Cleaned Extracted Text](results/cleaned_paper_text.png)
 
 ### **Cleaning Steps**
 1. **Title Extraction:** Added proper titles and structured headings.
