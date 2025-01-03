@@ -81,6 +81,35 @@ A conversational AI assistant designed to answer technical queries about battery
 
 ---
 
+## 🛠 Crawling and Extraction Workflow
+
+Our dataset generation involves two main steps: **crawling relevant articles** and **extracting text from PDFs**. Below is an overview of the process:
+
+### Crawling Process
+The script crawls ArXiv for articles based on predefined topics, such as:
+- State of Charge (SOC) estimation
+- Battery thermal management
+- Battery lifespan prediction
+- Battery safety and failure mechanisms
+- Solid-state battery chemistry
+- Lithium-air batteries
+- Fast charging technology
+- AI in battery management
+
+#### Example Output:
+![Crawling Process](results/crawling_process.png)
+
+### Extraction Process
+Once PDFs are downloaded, the script extracts the text content from each file and saves it as a `.txt` file for further processing.
+
+#### Example Output:
+![Extraction Process](results/extraction_process.png)
+
+### Summary
+This pipeline ensures the seamless generation of a text corpus for downstream tasks, such as cleaning, QA pair generation, and model fine-tuning.
+
+---
+
 ## 📊 Results
 
 ### **Extracted Text Analysis**
