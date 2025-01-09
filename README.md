@@ -112,15 +112,7 @@ This pipeline ensures the seamless generation of a text corpus for downstream ta
 
 The text extracted from PDFs often contains noise, such as incomplete sentences, mathematical notations, and unnecessary formatting. To prepare the text for downstream tasks like QA pair generation and fine-tuning, we implemented a robust cleaning process.
 
-### **1. Cleaning Steps**
-Our text cleaning pipeline includes:
-- **Lowercasing**: All text is converted to lowercase for uniformity.
-- **Special Character Removal**: Unwanted symbols, mathematical notations, and equations are removed.
-- **Whitespace Normalization**: Extra spaces, line breaks, and tabs are trimmed or normalized.
-- **Section Extraction**: Key sections like Abstract, Introduction, and Conclusion are identified.
-- **Keyword Highlighting**: Important keywords like "battery," "SOC," and "thermal" are retained.
-
-### **2. Before and After Example**
+### **1. Before and After Example**
 **Original Extracted Text**:
 ![Original Extracted Text](results/original_text.png)
 
