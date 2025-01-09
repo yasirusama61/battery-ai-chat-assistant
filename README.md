@@ -133,6 +133,12 @@ Our text cleaning pipeline includes:
 
 ![Cleaned Extracted Text](results/cleaned_paper_text.png)
 
+### **Summary of Extracted Articles**
+
+Here is an overview of the extracted and cleaned articles:
+
+![Summary Table](results/summary_table.png)
+
 ---
 
 ### **🧹 Cleaning Steps**
