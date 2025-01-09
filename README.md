@@ -217,9 +217,11 @@ Below is a snapshot of the generated QA pairs from the extracted text, showcasin
 
 ### 4. Distribution of QA Pairs per File
 
-This plot shows the number of QA pairs generated for each extracted text file.
+This plot shows the number of QA pairs generated for each extracted text file and with increasing articles numbers further.
 
 ![QA Pair Distribution](results/qa_pair_distribution.png)
+
+![QA Pair Distribution](results/qa_pair_distribution_more_articles.png)
 
 **Description**:
 - The x-axis represents the file indices, and the y-axis shows the number of QA pairs generated.
