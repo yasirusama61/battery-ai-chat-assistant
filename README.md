@@ -186,17 +186,6 @@ We processed the extracted text from crawled PDFs and analyzed the word count di
 
 ---
 
-### 2. QA Pair Statistics
-We generated QA pairs from the extracted text and analyzed the distribution of question and answer lengths.
-
-![QA Pair Lengths](results/qa_pair_statistics.png)
-
-**Description**:
-- This histogram shows the distribution of word counts in generated questions and answers.
-- Useful for understanding the complexity and verbosity of the generated QA pairs.
-
----
-
 ### 3. Sample QA Pairs
 
 #### QA Pair 1
